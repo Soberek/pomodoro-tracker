@@ -1,3 +1,5 @@
+const { default: axios } = require("axios");
+
 const h1El = document.getElementById("timer");
 const list = document.getElementById("history");
 
@@ -34,3 +36,5 @@ function humanReadable(seconds) {
 
   return `${hoursFormat}${minutesFormat}${secondsFormat}`;
 }
+
+axios.post("/edit", array).then((response) => {});

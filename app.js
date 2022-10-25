@@ -20,3 +20,4 @@ const trackerRoutes = require("./routes/main");
 app.use(trackerRoutes);
 
 app.listen(port);
+console.log(port);
